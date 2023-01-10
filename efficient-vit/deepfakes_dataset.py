@@ -4,6 +4,7 @@ import cv2
 import numpy as np # including numpy
 
 import uuid # importing uuid
+# adding a new comment
 from albumentations import Compose, RandomBrightnessContrast, \
     HorizontalFlip, FancyPCA, HueSaturationValue, OneOf, ToGray, \
     ShiftScaleRotate, ImageCompression, PadIfNeeded, GaussNoise, GaussianBlur, Rotate
